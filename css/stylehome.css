@@ -1,0 +1,212 @@
+*{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    font-family: Tahoma;
+    box-sizing: border-box;
+}
+html{
+    --colorblue:#172035;
+}
+.home{
+    background-color: var(--colorblue);
+    position: fixed;
+    width: 100%;
+    height: 3rem;
+    padding: 20px;
+    display: flex;
+
+}
+.home ul li a{
+    color:white;
+    text-decoration: none;
+}
+.home ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+.home ul li{
+    
+    padding: 30px;
+    /* margin: 10px; */
+    
+}
+
+.home ul li:hover{
+    background-color:lightslategray;
+    padding: 13px;
+    border: 1px solid #000;
+}
+
+.home .sechome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.home .sechome img{
+    width: 150px;
+    height: 50px;
+}
+.imgsection{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content:center ;
+background-image: url(../img/background.jpg);
+background-position: center;
+background-size: cover;
+height: 95vh;
+}
+.imgsection h2, .imgsection  h3{
+    color:white;
+    text-align: center;
+    margin: 10px;
+    text-shadow: 3px 3px 2px #000;
+
+}
+.imgsection button{
+background-color:var(--colorblue);
+color:white;
+min-width: 200px;
+min-height: 50px;
+padding: 5px;
+font-weight: bolder;
+font-size: 18px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.featurecourses{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.featurecourses h2, .learnteach h2{
+    margin-bottom: 30px;
+    font-family:"Broadway Regular";
+    font-size: 30px;
+    font-weight: bolder;
+}
+.featurecourses .parentsec{
+    display: flex;
+
+}
+
+.featurecourses .parentsec figure img{
+    width: 300px;
+    box-shadow: 5px 10px #888888;
+    margin-bottom: 20px;
+}
+.featurecourses .parentsec figure img:hover{
+    box-shadow: -5px -10px #888888;
+    opacity: 0.5;
+
+}
+.featurecourses .parentsec figure figcaption,.learnteach .sublearnteach figure figcaption{
+    font:bold 20px Arial
+}
+.featurecourses .parentsec figure p ,.learnteach .sublearnteach figure p{
+    font-weight: bold;
+    font-size:12px
+}
+.featurecourses .parentsec figure figcaption ,p ,button{
+    text-align: center;
+    margin: 5px;
+}
+.featurecourses .parentsec figure button,.learnteach .sublearnteach figure button{
+    background-color:var(--colorblue);
+    color:white;
+    min-width: 150px;
+    min-height: 40px;
+    padding: 5px;
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #514c4c;
+    padding: 10px;
+}
+.about .parentofsubabout{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.about .parentofsubabout .subabout{
+    background-color: #000;
+    width: 220px;
+    height: 150px;
+    color:white;
+    margin: 5px;
+    text-align: center;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.about h1{
+    font-family: "Broadway Regular";
+    font-size: 33px;
+    color:white;
+    text-shadow:3px 3px 2px #000; ;
+}
+.about .parentofsubabout .subabout:active{
+    background-color: red;
+    color:#000
+}
+.learnteach{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 30px;
+
+}
+.learnteach .sublearnteach{
+    display: flex;
+    
+}
+.learnteach .sublearnteach figure img{
+    width: 300px;
+    box-shadow: 5px 10px #888888;
+    margin-bottom: 20px;
+    margin: 30px;
+   
+}
+footer{
+    display: flex;
+    background-color: var(--colorblue);
+    color:white;
+    
+}
+footer .footerdivone{
+display: flex;
+margin-left: 3px;
+flex-direction: column;
+justify-content: center;
+padding: 10px;
+
+}
+footer .seconddiv{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}

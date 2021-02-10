@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>LearnTech Plus | Tech Support</title>
+	<style>
+		*{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    font-family: Tahoma;
+    box-sizing: border-box;
+}
+html{
+    --colorblue:#172035;
+}
+.home{
+    background-color: var(--colorblue);
+    position: fixed;
+    width: 100%;
+	top:0;
+    height: 3rem;
+    padding: 20px;
+    display: flex;
+
+}
+.home ul li a{
+    color:white;
+    text-decoration: none;
+}
+.home ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+.home ul li{
+    
+    padding: 30px;
+    /* margin: 10px; */
+    
+}
+
+.home ul li:hover{
+    background-color:lightslategray;
+    padding: 13px;
+    border: 1px solid #000;
+}
+
+.home .sechome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.home .sechome img{
+    width: 150px;
+    height: 50px;
+}
+.tech{
+	margin-top: 80px;
+	margin-bottom: 2rem;
+}
+.tech h1{
+	text-align: center;
+	margin-bottom: 50px;
+	font:bolder 44px Impact;
+}
+.asidesec{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: nowrap;
+}
+.asidesec .imgs{
+	margin: 10px;
+	border: 2px dashed #000;
+	box-shadow: 5px 5px 3px #0f502c;
+}
+.asidesec .txt h2 ,.asidesec .txt p , .asidesec .txt button{
+margin: 10px ;
+
+}
+.asidesec .txt p{
+	font-size: larger;
+}
+.asidesec .txt button{
+	background-color:var(--colorblue);
+color:white;
+min-width: 200px;
+min-height: 50px;
+padding: 5px;
+font-weight: bolder;
+font-size: 18px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+cursor: pointer;
+}
+/* .tech .subdiv{
+	background-color: crimson;
+	display: flex;
+	justify-content: space-evenly;
+
+} */
+
+footer{
+    display: flex;
+    background-color: var(--colorblue);
+    color:white;
+    
+}
+footer .footerdivone{
+display: flex;
+margin-left: 3px;
+flex-direction: column;
+justify-content: center;
+padding: 10px;
+
+}
+footer .seconddiv{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+	</style>
+	
+	
+</head>
+<body>
+	<header class="home">
+        <section class="sechome">
+            <img src="./img/logo.png" alt="this is a logo" title="This is a Logo">
+         </section>
+        <ul>
+            <li><a href="index.html">Home </a></li>
+            <li><a href="techsupport.html">Tech Support</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="premiumplus.html">Premium Plus</a></li>
+            <li><a href="learntech.html">Learn Teach</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </header>
+	<section class="tech">
+		<h1>Tech Support</h1>
+		<aside class="asidesec">
+			<div class="imgs">
+				<img src="./img/course-01.jpg">
+			</div>
+			<div class="txt">
+				<h2>Computer Support</h2>
+				<p>This is some text about computer support</p>
+				<button>Book Appoinment</button>
+			</div>
+		</aside>
+		<aside class="asidesec">
+			<div class="imgs">
+				<img src="./img/course-01.jpg">
+			</div>
+			<div class="txt">
+				<h2>Printer Support</h2>
+				<p>This is some text about computer support</p>
+				<button>Book Appoinment</button>
+			</div>
+		
+		</aside>
+		<aside class="asidesec">
+			<div class="imgs">
+				<img src="./img/course-01.jpg">
+			</div>
+			<div class="txt">
+				<h2>Smart device Support</h2>
+				<p>This is some text about computer support</p>
+				<button>Book Appoinment</button>
+			</div>
+	
+			</div> 
+		</aside>
+	</section>
+	<footer>
+		<div class="footerdivone">
+			<img src="./img/Capture.png" width="50px" height="50px">
+		</div>
+		<div class="seconddiv">
+			&copy; Copyright 2021. All Rights Reserved. | LearnTech Plus <br>
+			BY:Mostafa Mohamed Suliman
+		</div>
+		
+	</footer>
+		
+	 
+
+</body>
+</html>
+
